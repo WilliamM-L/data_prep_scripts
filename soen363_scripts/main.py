@@ -22,7 +22,7 @@ def create_filtered_csv(input_file, output_file, indices):
     """
     :param input_file: path of file that will be partially copied
     :param output_file: path of output file
-    :param indices: indices of each row we want to copy in the new file
+    :param indices: indices of each column we want to copy in the new file
     :return: null
     """
     counter = 0
